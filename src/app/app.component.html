@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<app-spinner [isRunning]="isRequesting"></app-spinner>
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+
+</div>
+
+<ss-multiselect-dropdown [options]="myOptions" [(ngModel)]="optionsModel" (ngModelChange)="onChange($event)"></ss-multiselect-dropdown>
